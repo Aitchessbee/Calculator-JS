@@ -1,35 +1,24 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #9D174D;
 }
 
 h1 {
     text-align: center;
-    margin: 40px;
+    margin-bottom: 80px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 55px;
+    font-weight: 100;
 }
 
 .calculator {
     width: 417px;
     height: 518px;
-    background-color: #DED8D8;
+    background-color: #DB2777;
     margin: 0 auto;
-    border: black 1px solid;
-}
-
-/* Arrows */
-.arrows {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-}
-
-.arrow {
-    width: 62px;
-    height: 62px;
-    margin: auto 20px;
-    background-color: #7e7777;
-    color: white;
-    border: none;
+    border-radius: 20px;
 }
 
 /* Number grid */
@@ -48,22 +37,33 @@ h1 {
 .box {
     width: 57px;
     height: 57px;
-    background-color: #504b4b;
+    background-color: #c4c4c450;
     color: white;
     border: none;
+    border-radius: 10px;
+    /* opacity: 0.5; */
+}
+
+.box:hover {
+    background-color: #c4c4c480;
 }
 
 /* Input area */
 .text-box {
     /* margin: 40px auto; */
+
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
 #input_box {
     display: block;
-    font-size: 22px;
-    height: 64px;
-    width: 90%;
-    margin: 0 auto;
+    font-size: 24px;
+    height: 46px;   
+    width: 70%;
+    margin: 40px auto;
+    background-color: #FBCFE8;
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
 }
